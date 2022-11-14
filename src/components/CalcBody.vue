@@ -296,37 +296,18 @@ button {
 }
 .drop:active {
     background-color: rgb(1, 92, 183);
-    animation: puru 5s;
+    animation: puru 1s;
 }
 
 @keyframes puru {
-    0% {
-        transform: translate(0px, 2px);
-    }
-    5% {
-        transform: translate(0px, -5px);
-    }
-    10% {
-        transform: translate(0px, 5px);
-    }
-    15% {
-        transform: translate(0px, -3px);
-    }
-    20% {
-        transform: translate(0px, 3px);
-    }
-    25% {
-        transform: translate(0px, -3px);
-    }
-    50% {
-        transform: translate(0px, 3px);
-    }
-    75% {
-        transform: translate(0px, -2px);
-    }
-    90% {
-        transform: translate(0px, 0px);
-    }
+	0% {	transform: translate(0, 0);}
+	5% {	transform: translate(-5px, -0);}
+	10% {	transform: translate(5px, 0);}
+	15% {	transform: translate(-5px, -0);}
+	20% {	transform: translate(5px, 0);}
+	25% {	transform: translate(-5px, -0);}
+	30% {	transform: translate(0, 0);}
+	100% {	transform: translate(0, 0);}
 }
 .clear-all:hover {
     animation: explosion 5s;
