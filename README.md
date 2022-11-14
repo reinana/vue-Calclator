@@ -1,4 +1,7 @@
 # calculator
+Recursion Vue.jsコースの課題「Calclation App」です。
+プロジェクトURL ：https://reinana.github.io/vue-Calculator/
+
 
 ## Project setup
 ```
