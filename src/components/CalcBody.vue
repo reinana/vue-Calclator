@@ -4,7 +4,7 @@
             <h1 class="title px-1">{{ msg }}</h1>
             <div class="d-flex">
                 <div class="result">{{showNum | trimNum}}</div>
-                <div class="drop">
+                <div class="drop clear-all">
                     <button class="" v-on:click="clearAll">C</button>
                 </div>
             </div>
@@ -296,5 +296,58 @@ button {
 }
 .drop:active {
     background-color: rgb(1, 92, 183);
+    animation: puru 5s;
 }
+
+@keyframes puru {
+    0% {
+        transform: translate(0px, 2px);
+    }
+    5% {
+        transform: translate(0px, -5px);
+    }
+    10% {
+        transform: translate(0px, 5px);
+    }
+    15% {
+        transform: translate(0px, -3px);
+    }
+    20% {
+        transform: translate(0px, 3px);
+    }
+    25% {
+        transform: translate(0px, -3px);
+    }
+    50% {
+        transform: translate(0px, 3px);
+    }
+    75% {
+        transform: translate(0px, -2px);
+    }
+    90% {
+        transform: translate(0px, 0px);
+    }
+}
+.clear-all:hover {
+    animation: explosion 5s;
+}
+@keyframes explosion {
+    0% {
+        transform: scale(1, 1);
+    }
+    25% {
+        transform: scale(1.2, 1.2);
+    }
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+    75% {
+        transform: scale(1.8, 1.8);
+    }
+    100% {
+        transform: scale(2, 2);
+        background-color: red;
+    }
+}
+
 </style>
