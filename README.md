@@ -2,26 +2,4 @@
 Recursion Vue.jsコースの課題「Calclation App」です。
 プロジェクトURL ：https://reinana.github.io/vue-Calculator/
 
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![GIF 2022-11-14 11-28-32](https://user-images.githubusercontent.com/62531225/201850924-164ed825-8644-4eb2-9242-b1a371258c66.gif)
